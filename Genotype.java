@@ -8,5 +8,8 @@ public class Genotype {
         JOptionPane.showMessageDialog(null, "Hello " + name + "!" + "\n" + "You're welcome");
 
         String partnerName = JOptionPane.showInputDialog("Enter your partner's name").toUpperCase();
+
+        String genoType = JOptionPane.showInputDialog("What's your genotype?").toUpperCase();
+        String partnerGenoType = JOptionPane.showInputDialog("What's your partner's genotype?").toUpperCase();
     }
 }
